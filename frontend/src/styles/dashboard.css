@@ -1,0 +1,143 @@
+/* Rating Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.modal-content select {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.modal-content button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background: #0056b3;
+}
+
+.close-modal {
+    background: #FF4C4C !important;
+}
+
+.close-modal:hover {
+    background: #C70000 !important;
+}
+
+/* 🔹 General Styles */
+.dashboard-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* 🔹 Store Table Styling */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.styled-table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.styled-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* 🔹 Review Cards */
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.review-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: 0.3s;
+}
+
+.review-card:hover {
+    transform: scale(1.05);
+}
+
+.review-card p {
+    margin: 5px 0;
+}
+
+.review-card span {
+    font-size: 12px;
+    color: gray;
+}
+/* 🔹 Review Cards */
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.review-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: 0.3s;
+}
+
+.review-card:hover {
+    transform: scale(1.05);
+}
+
+.review-card p {
+    margin: 5px 0;
+}
+
+.review-card span {
+    font-size: 12px;
+    color: gray;
+}
+
+/* ⭐ Star Rating */
+.star-rating {
+    color: gold;
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+.admin-dashboard {
+    padding: 20px;
+    text-align: center;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #5a7f7d;
+    color: white;
+}
+
+.delete-btn {
+    background-color: rgb(212, 82, 49);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
